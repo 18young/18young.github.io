@@ -1,9 +1,8 @@
 ## 用GitHub建一个博客主页
 
-具体信息都可以动态修改
-可参考文章[如何在GitHub上写博客](https://www.zhihu.com/question/20962496)来获取更多内容。
+可参考文章[“如何在GitHub上写博客”](https://www.zhihu.com/question/20962496)来获取更多内容。
+当然，你也可以参考[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
