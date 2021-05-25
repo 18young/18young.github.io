@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T05:09:34.731Z" agent="5.0 (Windows)" etag="5_lv3f8gYKnEz_K_bKuS" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T05:19:47.550Z" agent="5.0 (Windows)" etag="LOMOHrR5oa87s7blyHkM" version="14.7.0" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="1233" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="f6ohBAHf6BeMD9NY3o_H-43" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;strokeColor=#FF3333;strokeWidth=3;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="310" height="180" as="geometry" />
+        </mxCell>
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-18" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;dashed=1;strokeColor=#FF3333;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="337.5" y="492.5" width="150" height="85" as="geometry" />
         </mxCell>
@@ -125,9 +128,6 @@
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-41" value="&lt;div&gt;释放摄像头并关闭所有窗口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="359" y="1040" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="f6ohBAHf6BeMD9NY3o_H-43" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;strokeColor=#FF3333;strokeWidth=3;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="130" width="310" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-44" value="&lt;font style=&quot;font-size: 14px&quot;&gt;初始化&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="160" y="100" width="80" height="30" as="geometry" />
         </mxCell>
@@ -139,6 +139,9 @@
         </mxCell>
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-48" value="找到人脸在哪里" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="200" y="430" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="f6ohBAHf6BeMD9NY3o_H-50" value="取出下一个人脸矩形框" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="140" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
