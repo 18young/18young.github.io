@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T04:55:50.803Z" agent="5.0 (Windows)" etag="WynZQR3EkRHrW6xxggbT" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T05:09:34.731Z" agent="5.0 (Windows)" etag="5_lv3f8gYKnEz_K_bKuS" version="14.7.0" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="1233" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-30" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="f6ohBAHf6BeMD9NY3o_H-10" target="f6ohBAHf6BeMD9NY3o_H-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f6ohBAHf6BeMD9NY3o_H-10" value="&lt;div&gt;根据眨眼、哈欠、瞌睡&lt;/div&gt;&lt;div&gt;点头次数判断是疲劳&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="f6ohBAHf6BeMD9NY3o_H-10" value="&lt;div&gt;根据眨眼、哈欠、瞌睡&lt;/div&gt;&lt;div&gt;点头&lt;font color=&quot;#FF3333&quot;&gt;&lt;b&gt;次数&lt;/b&gt;&lt;/font&gt;判断是疲劳&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="337.5" y="595" width="155" height="65" as="geometry" />
         </mxCell>
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;strokeWidth=1;" edge="1" parent="1" source="f6ohBAHf6BeMD9NY3o_H-11" target="f6ohBAHf6BeMD9NY3o_H-12">
@@ -130,6 +130,15 @@
         </mxCell>
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-44" value="&lt;font style=&quot;font-size: 14px&quot;&gt;初始化&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="160" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f6ohBAHf6BeMD9NY3o_H-46" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=11;fontColor=#FF3333;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="454.58" as="sourcePoint" />
+            <mxPoint x="330" y="454.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6ohBAHf6BeMD9NY3o_H-48" value="找到人脸在哪里" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="50" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
