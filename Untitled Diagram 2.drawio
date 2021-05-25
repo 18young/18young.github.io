@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T07:18:45.876Z" agent="5.0 (Windows)" etag="0ksoNTIR73gQUg87B6DR" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T07:19:12.648Z" agent="5.0 (Windows)" etag="LE-jVVHCUEhElKXdqng2" version="14.7.0" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="1233" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-72" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;strokeColor=#FF3333;strokeWidth=3;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="730" y="440" width="540" height="300" as="geometry" />
+          <mxGeometry x="730" y="440" width="540" height="260" as="geometry" />
         </mxCell>
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-43" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;strokeColor=#FF3333;strokeWidth=3;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="180" y="130" width="310" height="180" as="geometry" />
@@ -217,7 +217,7 @@
           <mxGeometry x="1140" y="550" width="110" height="35" as="geometry" />
         </mxCell>
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-67" value="显示人脸数、COUNTER、EAR、TOTAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="777.5" y="670" width="105" height="50" as="geometry" />
+          <mxGeometry x="777.5" y="630" width="105" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
