@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T07:19:12.648Z" agent="5.0 (Windows)" etag="LE-jVVHCUEhElKXdqng2" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T07:21:24.550Z" agent="5.0 (Windows)" etag="1X9oEhsHVviNG1k47bWl" version="14.7.0" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="1233" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,6 +218,9 @@
         </mxCell>
         <mxCell id="f6ohBAHf6BeMD9NY3o_H-67" value="显示人脸数、COUNTER、EAR、TOTAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="777.5" y="630" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f6ohBAHf6BeMD9NY3o_H-80" value="判断眼睛开度是否在连续几帧内均小于一定阈值，若是，则判定为眼睛疲劳一次" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="390" width="142" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
