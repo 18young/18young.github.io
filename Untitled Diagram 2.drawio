@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T09:28:26.074Z" agent="5.0 (Windows)" etag="v-d7DG4_Tyw_BuT7UFPE" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T09:44:42.498Z" agent="5.0 (Windows)" etag="Ai3saOXaxxlwoQqWep41" version="14.8.3" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="1185" dy="636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -768,23 +768,23 @@
         <mxCell id="LyPHtDGqG46tHzZd_JiR-86" value="&lt;div&gt;注册网络数据接收成功的回调函数&lt;/div&gt;&lt;div&gt;ESP8266_WIFI_Recv_Cb_JX&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1739.0149999999999" y="1379" width="185.49" height="45.5" as="geometry" />
         </mxCell>
-        <mxCell id="LyPHtDGqG46tHzZd_JiR-92" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-87" target="LyPHtDGqG46tHzZd_JiR-88">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-87" value="&lt;div&gt;注册成功断开TCP连接的回调函数&lt;/div&gt;&lt;div&gt;ESP8266_TCP_Disconnect_Cb_JX&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1732.01" y="1457" width="199.5" height="45.5" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-88" value="&lt;div&gt;结束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1788.76" y="1531" width="86" height="40" as="geometry" />
+          <mxGeometry x="1788.76" y="1611.5" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-93" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=22;strokeColor=#FF00FF;" vertex="1" parent="1">
-          <mxGeometry x="1728" y="1293" width="206" height="58" as="geometry" />
+          <mxGeometry x="1728.76" y="1293" width="206" height="58" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=22;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1728.76" y="1372.75" width="206" height="58" as="geometry" />
         </mxCell>
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-123" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=1;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-95" target="LyPHtDGqG46tHzZd_JiR-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-95" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=22;strokeColor=#FF00FF;" vertex="1" parent="1">
-          <mxGeometry x="1728.76" y="1453" width="209.24" height="58" as="geometry" />
+          <mxGeometry x="1727.1399999999999" y="1453" width="209.24" height="58" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-96" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=16.45;notch=0;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1946" y="1307" width="56" height="31.5" as="geometry" />
@@ -810,7 +810,7 @@
             <mxPoint x="1167.9700000000003" y="1910" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1598" y="1468" />
-              <mxPoint x="1598" y="1661" />
+              <mxPoint x="1598" y="1764" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -823,28 +823,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-103" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1790.26" y="1641" width="86" height="40" as="geometry" />
+          <mxGeometry x="1800" y="1744" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-112" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-105" target="LyPHtDGqG46tHzZd_JiR-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-105" value="&lt;div&gt;连接TCP-server&lt;/div&gt;&lt;div&gt;espconn_connect&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1776.01" y="1783" width="114.5" height="42" as="geometry" />
+          <mxGeometry x="1785.75" y="1886" width="114.5" height="42" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-106" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=22;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="1758.26" y="1772" width="147" height="65" as="geometry" />
+          <mxGeometry x="1768" y="1875" width="147" height="65" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-111" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-107" target="LyPHtDGqG46tHzZd_JiR-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-107" value="打印异常断开" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1766.01" y="1703" width="134.5" height="45.5" as="geometry" />
+          <mxGeometry x="1775.75" y="1806" width="134.5" height="45.5" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-108" value="&lt;div&gt;结束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1790.26" y="1871" width="86" height="40" as="geometry" />
+          <mxGeometry x="1800" y="1974" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-114" value="&lt;font color=&quot;#FF3333&quot;&gt;espconn_connect()函数还可继续分下去&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1035.62" y="1847" width="134.5" height="45.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-124" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-122" target="LyPHtDGqG46tHzZd_JiR-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-122" value="&lt;div&gt;espconn_send函数发送内容&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1764.51" y="1534.5" width="134.5" height="45.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
