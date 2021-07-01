@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T08:18:03.849Z" agent="5.0 (Windows)" etag="davBDTvasXJA5VlJY5Lb" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T08:19:52.132Z" agent="5.0 (Windows)" etag="dmexijpmR9rjgWNcgVC_" version="14.8.3" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="1808" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1101,28 +1101,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-54" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="114" y="2029" width="86" height="40" as="geometry" />
+          <mxGeometry x="97.5" y="2027" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-55" target="LyPHtDGqG46tHzZd_JiR-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-55" value="设置工作模式为STA" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="97" y="2105" width="120" height="29" as="geometry" />
+          <mxGeometry x="80.5" y="2103" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-56" target="LyPHtDGqG46tHzZd_JiR-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-56" value="&lt;div&gt;配置STA模式参数&lt;/div&gt;&lt;div&gt;(设置WIFI名, WIFI密码&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="97" y="2159" width="120" height="39" as="geometry" />
+          <mxGeometry x="80.5" y="2157" width="120" height="39" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-57" target="LyPHtDGqG46tHzZd_JiR-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-57" value="&lt;div&gt;设置 Wi-Fi Station 接⼝口的配置参数，并保存到&amp;nbsp; Flash&lt;/div&gt;&lt;div&gt;通过wifi_station_set_config&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="72.5" y="2229" width="169" height="51" as="geometry" />
+          <mxGeometry x="56" y="2227" width="169" height="51" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-58" value="&lt;div&gt;结束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="114" y="2306" width="86" height="43" as="geometry" />
+          <mxGeometry x="97.5" y="2304" width="86" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-63" value="" style="endArrow=classic;html=1;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF3333;dashed=1;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-53" target="LyPHtDGqG46tHzZd_JiR-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="222" y="2383.5" as="sourcePoint" />
+            <mxPoint x="404" y="2072" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="276" y="2378" />
+              <mxPoint x="276" y="2047" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-64" value="&lt;div&gt;配置STA&lt;/div&gt;&lt;div&gt;和wifi&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LyPHtDGqG46tHzZd_JiR-63">
+          <mxGeometry x="0.2029" y="-25" relative="1" as="geometry">
+            <mxPoint x="-31" y="-8" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
