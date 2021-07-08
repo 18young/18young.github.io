@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:47:05.839Z" agent="5.0 (Windows)" etag="lESbIZEFdP0fr2HTpiem" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T12:47:55.132Z" agent="5.0 (Windows)" etag="Yfs6SPbp7YaJ9pws2uAt" version="14.8.5" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="1185" dy="636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1002,6 +1002,9 @@
         </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-41" value="&lt;div&gt;定时50ms计时&lt;/div&gt;&lt;div&gt;回调&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1464" y="1996" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-51" value="&lt;div&gt;这里还可以在发送完数&lt;/div&gt;&lt;div&gt;据之后直接关闭定时器2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=10;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1131" y="2133" width="116" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
