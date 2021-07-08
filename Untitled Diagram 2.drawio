@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:27:59.921Z" agent="5.0 (Windows)" etag="mDm_GFLFBh68VqL-X2mf" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T12:38:53.231Z" agent="5.0 (Windows)" etag="kudcbkQb_otSjYk1Wor0" version="14.8.5" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -945,6 +945,47 @@
           <mxGeometry x="0.2826" y="1" relative="1" as="geometry">
             <mxPoint x="2" y="-13" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-34" target="YhqNBBFWnvcr8yYG7_sJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-34" target="YhqNBBFWnvcr8yYG7_sJ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-34" value="&lt;div&gt;是否达到了设定的&lt;/div&gt;&lt;div&gt;舍弃时间片数量&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300.1299999999999" y="2035" width="145" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-35" target="YhqNBBFWnvcr8yYG7_sJ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-35" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1329.6299999999999" y="1943" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-36" target="YhqNBBFWnvcr8yYG7_sJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-36" value="发送数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1336.1299999999999" y="2202" width="73" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-37" target="YhqNBBFWnvcr8yYG7_sJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#FF3333;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-37" target="YhqNBBFWnvcr8yYG7_sJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1522" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-37" value="&lt;div&gt;tcp连接成功&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;上一次数据发送成功&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;待发包未发完&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300.1299999999999" y="2112" width="145" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-38" value="&lt;div&gt;结束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1336.1299999999999" y="2260" width="73" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-41" target="YhqNBBFWnvcr8yYG7_sJ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-41" value="&lt;div&gt;定时50ms计时&lt;/div&gt;&lt;div&gt;回调&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1995" width="86" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
