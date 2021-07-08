@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:57:07.105Z" agent="5.0 (Windows)" etag="DUMgfi_ElL87YNyvM5RH" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T13:02:02.599Z" agent="5.0 (Windows)" etag="YyQ8qOYYnFunN3WopNcT" version="14.8.5" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -781,19 +781,19 @@
         <mxCell id="LyPHtDGqG46tHzZd_JiR-95" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=22;strokeColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry x="1728.76" y="1450.75" width="209.24" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="LyPHtDGqG46tHzZd_JiR-96" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=16.45;notch=0;strokeColor=#FF3333;" parent="1" vertex="1">
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-96" value="回调函数" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=16.45;notch=0;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1946" y="1307" width="56" height="31.5" as="geometry" />
         </mxCell>
-        <mxCell id="LyPHtDGqG46tHzZd_JiR-97" value="&lt;div&gt;设置tcp连接成功标志&lt;/div&gt;&lt;div&gt;并打印信息&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-97" value="&lt;div&gt;在该回调函数中将上一数&lt;/div&gt;&lt;div&gt;据包发送成功标志置1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2020" y="1300" width="134.5" height="45.5" as="geometry" />
         </mxCell>
-        <mxCell id="LyPHtDGqG46tHzZd_JiR-98" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=16.45;notch=0;strokeColor=#FF3333;" parent="1" vertex="1">
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-98" value="回调函数" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=16.45;notch=0;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1947" y="1386.75" width="56" height="31.5" as="geometry" />
         </mxCell>
-        <mxCell id="LyPHtDGqG46tHzZd_JiR-99" value="接收到数据处理相应功能" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2021" y="1379.75" width="134.5" height="45.5" as="geometry" />
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-99" value="&lt;div&gt;在该回调函数中检测是否&lt;/div&gt;&lt;div&gt;有start、stop、continue等信息从服务器发送过来&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2021" y="1375.37" width="134.5" height="54.25" as="geometry" />
         </mxCell>
-        <mxCell id="LyPHtDGqG46tHzZd_JiR-100" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=16.45;notch=0;strokeColor=#FF3333;" parent="1" vertex="1">
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-100" value="回调函数" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=16.45;notch=0;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1949" y="1460.75" width="56" height="31.5" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-101" value="&lt;div&gt;设置tcp连接标志位false&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
