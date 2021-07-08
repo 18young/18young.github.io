@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:23:18.353Z" agent="5.0 (Windows)" etag="Y23TtKXKHiCibs31wc84" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T12:24:57.546Z" agent="5.0 (Windows)" etag="EsJD021ubgq_DjXkwa3y" version="14.8.5" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -886,7 +886,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=22;strokeColor=#FF33FF;" vertex="1" parent="1">
-          <mxGeometry x="845.12" y="1620.5" width="152" height="61" as="geometry" />
+          <mxGeometry x="844.88" y="1618" width="152" height="61" as="geometry" />
         </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-7" target="YhqNBBFWnvcr8yYG7_sJ-14">
           <mxGeometry relative="1" as="geometry" />
@@ -894,7 +894,7 @@
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-7" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1072" y="1714" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-8" target="YhqNBBFWnvcr8yYG7_sJ-22">
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-8" target="YhqNBBFWnvcr8yYG7_sJ-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-8" value="关闭定时器3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -923,14 +923,14 @@
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-15" value="&lt;div&gt;定时1秒计时&lt;/div&gt;&lt;div&gt;回调&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1195.88" y="1759" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-22" target="YhqNBBFWnvcr8yYG7_sJ-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-22" value="启动定时器2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1073" y="1930" width="84" height="31.5" as="geometry" />
-        </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-24" value="&lt;div&gt;结束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1078.5" y="1985" width="73" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-26" target="YhqNBBFWnvcr8yYG7_sJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-26" value="&lt;div&gt;定时器2初始化&lt;/div&gt;&lt;div&gt;启动并注册回调&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1054.06" y="1926" width="121.88" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
