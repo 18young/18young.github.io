@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:14:40.677Z" agent="5.0 (Windows)" etag="iucI-712ZM34ozD9wG3l" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T12:21:54.910Z" agent="5.0 (Windows)" etag="KKgUjo_kqs9kmlUg2IeC" version="14.8.5" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -877,7 +877,7 @@
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-4" value="&lt;div&gt;结束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="878.1199999999999" y="1708.5" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;shape=flexArrow;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-6" target="YhqNBBFWnvcr8yYG7_sJ-7">
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;shape=flexArrow;strokeColor=#FF33FF;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-6" target="YhqNBBFWnvcr8yYG7_sJ-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-13" value="定时器3回调函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FF3333;" vertex="1" connectable="0" parent="YhqNBBFWnvcr8yYG7_sJ-11">
@@ -885,20 +885,52 @@
             <mxPoint x="2" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=22;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;fontSize=22;strokeColor=#FF33FF;" vertex="1" parent="1">
           <mxGeometry x="845.12" y="1620.5" width="152" height="61" as="geometry" />
         </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-7" target="YhqNBBFWnvcr8yYG7_sJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-7" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1187.94" y="1692" width="86" height="40" as="geometry" />
+          <mxGeometry x="1072" y="1714" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1185.94" y="1846" width="86" height="40" as="geometry" />
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-8" target="YhqNBBFWnvcr8yYG7_sJ-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-9" value="&lt;div&gt;定时器3初始化&lt;/div&gt;&lt;div&gt;OS_Timer_3_Init_JX&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="1769.5" width="121.88" height="40" as="geometry" />
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-8" value="关闭定时器3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1073" y="1875.5" width="84" height="31.5" as="geometry" />
         </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-10" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;关闭定时器3&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;注册定时器3回调函数&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;开启定时器&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=10;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="993.62" y="1626" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-18" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-14" target="YhqNBBFWnvcr8yYG7_sJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-14" target="YhqNBBFWnvcr8yYG7_sJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FF3333;" vertex="1" connectable="0" parent="YhqNBBFWnvcr8yYG7_sJ-19">
+          <mxGeometry x="-0.2576" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-14" value="&lt;div&gt;tcp建立&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;接收到start信号&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="1797" width="145" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-15" target="YhqNBBFWnvcr8yYG7_sJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-15" value="&lt;div&gt;定时器1秒计时&lt;/div&gt;&lt;div&gt;回调&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1195.88" y="1759" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-22" target="YhqNBBFWnvcr8yYG7_sJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-22" value="启动定时器2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1073" y="1930" width="84" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-24" value="&lt;div&gt;结束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1078.5" y="1985" width="73" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
