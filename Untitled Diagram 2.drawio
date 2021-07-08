@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T12:21:54.910Z" agent="5.0 (Windows)" etag="KKgUjo_kqs9kmlUg2IeC" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T12:23:18.353Z" agent="5.0 (Windows)" etag="Y23TtKXKHiCibs31wc84" version="14.8.5" type="github">
   <diagram id="dBK5igAenbzEHoaWE4YC" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -626,7 +626,7 @@
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LyPHtDGqG46tHzZd_JiR-42" target="YhqNBBFWnvcr8yYG7_sJ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LyPHtDGqG46tHzZd_JiR-42" value="&lt;div&gt;定时器3初始化&lt;/div&gt;&lt;div&gt;OS_Timer_3_Init_JX&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="LyPHtDGqG46tHzZd_JiR-42" value="&lt;div&gt;定时器3初始化&lt;/div&gt;&lt;div&gt;启动并注册回调&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860.18" y="1631" width="121.88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LyPHtDGqG46tHzZd_JiR-51" value="&lt;div&gt;定时器1的回调&lt;/div&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.51;dx=16.45;notch=0;strokeColor=#FF3333;" parent="1" vertex="1">
@@ -920,7 +920,7 @@
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-15" target="YhqNBBFWnvcr8yYG7_sJ-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-15" value="&lt;div&gt;定时器1秒计时&lt;/div&gt;&lt;div&gt;回调&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YhqNBBFWnvcr8yYG7_sJ-15" value="&lt;div&gt;定时1秒计时&lt;/div&gt;&lt;div&gt;回调&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1195.88" y="1759" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YhqNBBFWnvcr8yYG7_sJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#FF3333;strokeColor=#000000;" edge="1" parent="1" source="YhqNBBFWnvcr8yYG7_sJ-22" target="YhqNBBFWnvcr8yYG7_sJ-24">
