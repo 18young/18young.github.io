@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-11T05:29:47.716Z" agent="5.0 (Windows)" etag="At3lCHw-BNWjuwIQbhfB" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-11T08:08:06.924Z" agent="5.0 (Windows)" etag="YGZvaixBn1HMhkc6ZESu" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
     <mxGraphModel dx="474" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,12 @@
         </mxCell>
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-3" value="参数初始化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="160" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUJbxcEIMlmBDeOGFvgL-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CUJbxcEIMlmBDeOGFvgL-5" value="&lt;div&gt;1. 包括路边单元个数，车辆个数&lt;/div&gt;&lt;div&gt;2. 状态空间维度，动作维度，&lt;/div&gt;&lt;div&gt;3. 每个路边单元的历史记录存放ram&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="105" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
