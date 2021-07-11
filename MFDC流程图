@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-11T11:03:00.648Z" agent="5.0 (Windows)" etag="uKQZ0ojSzK1oroY9RIzr" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-11T13:59:59.705Z" agent="5.0 (Windows)" etag="7XSXBoFtL-PZgoPqcx90" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
     <mxGraphModel dx="474" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,10 +20,10 @@
           <mxGeometry x="10" y="110" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-6" value="还未达到最大训练轮数" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;align=center;" vertex="1" parent="1">
-          <mxGeometry x="150" y="160" width="80" height="30" as="geometry" />
+          <mxGeometry x="150" y="240" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-7" value="&lt;div&gt;路边单元是否&lt;/div&gt;&lt;div&gt;仍未扫描完成&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;align=center;" vertex="1" parent="1">
-          <mxGeometry x="150" y="210" width="80" height="30" as="geometry" />
+          <mxGeometry x="150" y="290" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
