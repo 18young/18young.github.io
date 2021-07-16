@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T06:08:53.383Z" agent="5.0 (Windows)" etag="mSxtwlJ1b4AkDamjtm6M" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T06:09:46.965Z" agent="5.0 (Windows)" etag="2WEmK2lmuUXYMdAbDFvL" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
     <mxGraphModel dx="1504" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,7 +229,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-104" value="&lt;div&gt;更新命中次数、生成动作、执行动作、更新状态、更新网络模型参数、收集网络模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="475.25" y="530" width="79.5" height="30" as="geometry" />
+          <mxGeometry x="475" y="570" width="79.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-108" value="退出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="495" y="680" width="40" height="20" as="geometry" />
@@ -241,13 +241,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-113" value="本地RSU中有剩余容量？" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;align=center;" vertex="1" parent="1">
-          <mxGeometry x="585" y="530" width="80" height="30" as="geometry" />
+          <mxGeometry x="585" y="510" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-114" target="Z8_9q85KkhKLgnPoxL1z-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-114" value="&lt;div&gt;生成动作、执行动作、更新状态、更新网络模型参数、收集网络模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="585.5" y="590" width="79.5" height="30" as="geometry" />
+          <mxGeometry x="585" y="570" width="79.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-116" target="Z8_9q85KkhKLgnPoxL1z-108">
           <mxGeometry relative="1" as="geometry">
@@ -255,7 +255,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-116" value="&lt;div&gt;生成动作、执行动作、更新状态、更新网络模型参数、收集网络模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" y="590" width="79.5" height="30" as="geometry" />
+          <mxGeometry x="699.5" y="570" width="79.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
