@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T03:38:20.393Z" agent="5.0 (Windows)" etag="tR3HyoCtsOJ1AKVidmBJ" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T03:41:32.960Z" agent="5.0 (Windows)" etag="IyzeGNUWcUMmLBMoTYSK" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
     <mxGraphModel dx="1396" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,8 +100,8 @@
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-25" value="主逻辑" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="285" y="510" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Z8_9q85KkhKLgnPoxL1z-35" value="&lt;div style=&quot;font-size: 6px&quot;&gt;参数初始化如下：&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;1. 路边单元个数(2)，车辆个数(2)，各个路边单元的容量(600)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;2. 视频数量(9724)、单个视频大小(8)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;3. 历史记录条数(5000)、mini-batch大小(200)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;4. 智能体个数(2*2:RSU个数*车辆数)(对应4个batch ram区)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;5. 状态空间维度(4*视频数量：视频请求状况、视频缓存状况、视频流行度状况)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;3. 动作空间维度(3:本地RSU、邻居RSU、远端)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;3. &lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;4.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;5. 训练轮数(300)&lt;br style=&quot;font-size: 6px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="112.36999999999999" width="270" height="95.25" as="geometry" />
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-35" value="&lt;div style=&quot;font-size: 6px&quot;&gt;参数初始化包括：&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;1. 路边单元个数(2)，车辆个数(2)，各路边单元容量(600)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;2. 视频数量(9724)、单个视频大小(8)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;3. 历史记录条数(5000)、mini-batch大小(200)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;4. 智能体个数(2*2:RSU个数*车辆数)(对应4个batch ram区)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;5. 状态空间维度(4*视频数量：视频请求状况、本地RSU视频缓存状况、邻接RSU视频缓存状况、视频流行度状况)&lt;/div&gt;&lt;div style=&quot;font-size: 6px&quot;&gt;6. 动作空间维度(3:本地RSU、邻居RSU、远端)&lt;/div&gt;7. 训练轮数(300)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="124.75" width="330" height="75.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
