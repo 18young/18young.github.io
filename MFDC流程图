@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T07:17:09.634Z" agent="5.0 (Windows)" etag="07wBgciGi7LoryeGZRDR" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T07:17:42.554Z" agent="5.0 (Windows)" etag="Tf91PCjLo1Pjj9Nu8Eem" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
     <mxGraphModel dx="1396" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -397,14 +397,21 @@
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-165" value="&lt;div&gt;1. 通过get_exploitation_action生成动作&lt;/div&gt;&lt;div&gt;2. 执行动作并返回奖励&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=left;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="280.005" y="528.75" width="102.25" height="23.75" as="geometry" />
         </mxCell>
-        <mxCell id="Z8_9q85KkhKLgnPoxL1z-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.54;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-166" target="Z8_9q85KkhKLgnPoxL1z-167">
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-166" target="Z8_9q85KkhKLgnPoxL1z-169">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z8_9q85KkhKLgnPoxL1z-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-166" target="Z8_9q85KkhKLgnPoxL1z-169">
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-166" target="Z8_9q85KkhKLgnPoxL1z-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-166" value="&lt;div&gt;生成的动作为[1, x, x]？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;align=center;" vertex="1" parent="1">
           <mxGeometry x="291.13" y="565" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-167" target="Z8_9q85KkhKLgnPoxL1z-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-167" value="&lt;div&gt;1. 从本地RSU中删除最小流行度视频&lt;/div&gt;&lt;div&gt;2. 本地RSU缓存请求的视频&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=left;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="593" width="80" height="27" as="geometry" />
