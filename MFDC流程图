@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T09:12:21.534Z" agent="5.0 (Windows)" etag="l8bD-JfIvMkhFUEL2iU-" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T09:12:35.885Z" agent="5.0 (Windows)" etag="pI9IEQere75vl3fHc7_m" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
     <mxGraphModel dx="1504" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -514,7 +514,7 @@
           <mxGeometry x="-59.92" y="1125.5" width="129.59" height="19" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-209" value="在该次梯度下降更新后，通过软更新的方式，用actor网络模型参数来更新critic网络模型的参数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="86.5" y="1169" width="71.62" height="41" as="geometry" />
+          <mxGeometry x="78.13" y="1169" width="103.5" height="31" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-210" value="返回该次的损失和包含模型参数的字典" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="88.38000000000001" y="1230" width="71.62" height="30" as="geometry" />
