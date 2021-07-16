@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T07:19:32.661Z" agent="5.0 (Windows)" etag="0km5cbak7lAia1czMG8u" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T07:21:47.306Z" agent="5.0 (Windows)" etag="fPXkNsY32xsU6CKvhvbC" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
     <mxGraphModel dx="1640" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -442,6 +442,22 @@
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-173" value="退出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="311.13" y="757.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-188" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;fontColor=#FF3333;fillColor=none;dashed=1;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="712.75" y="590" width="93" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;fontColor=#FF3333;dashed=1;strokeColor=#0000FF;" edge="1" parent="1" target="Z8_9q85KkhKLgnPoxL1z-162">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710.5" y="618.5" as="sourcePoint" />
+            <mxPoint x="290" y="474.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="619" />
+              <mxPoint x="700" y="650" />
+              <mxPoint x="450" y="650" />
+              <mxPoint x="450" y="420" />
+              <mxPoint x="331" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
