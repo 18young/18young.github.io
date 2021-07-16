@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T07:39:48.685Z" agent="5.0 (Windows)" etag="6Q1LAmgpSTND2GVMsg2b" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T08:41:23.679Z" agent="5.0 (Windows)" etag="adGKTOmb6bIagpKIXghC" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
     <mxGraphModel dx="1504" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -465,8 +465,8 @@
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-190" value="进入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="110" y="800" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Z8_9q85KkhKLgnPoxL1z-191" value="&lt;div&gt;收集累计奖励&lt;/div&gt;&lt;div&gt;添加历史记录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="93.5" y="842.5" width="73" height="20" as="geometry" />
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-191" value="含有200条历史记录mini-batch" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="106.75" y="842.5" width="46.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-192" target="Z8_9q85KkhKLgnPoxL1z-7">
           <mxGeometry relative="1" as="geometry" />
@@ -488,6 +488,9 @@
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-200" value="进入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="240" y="800" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-201" value="将mini-batch送入actor神经网络中，并输出最多200个的Q值，将这些Q值平均后得到平均Q值q_eval" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=left;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="78.38000000000001" y="880" width="103.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
