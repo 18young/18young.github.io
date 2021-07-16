@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T11:21:40.801Z" agent="5.0 (Windows)" etag="eCQsOoPRRRG3Ypvf39XE" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T11:22:40.142Z" agent="5.0 (Windows)" etag="XQmVlTfEQawP7Qp5X0-A" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
-    <mxGraphModel dx="1504" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1396" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,7 +283,12 @@
           <mxGeometry x="20" y="542.5" width="93" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#FF3333;dashed=1;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-128" target="Z8_9q85KkhKLgnPoxL1z-190">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="124" y="646" />
+              <mxPoint x="124" y="737" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-128" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;fontColor=#FF3333;strokeColor=#FF3333;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="24" y="628" width="85" height="35" as="geometry" />
@@ -466,13 +471,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-190" value="进入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
-          <mxGeometry x="110" y="810" width="40" height="20" as="geometry" />
+          <mxGeometry x="103.78" y="810" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-191" target="Z8_9q85KkhKLgnPoxL1z-201">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-191" value="含有200条历史记录mini-batch" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="88.375" y="850" width="83.25" height="17.5" as="geometry" />
+          <mxGeometry x="82.155" y="850" width="83.25" height="17.5" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-192" target="Z8_9q85KkhKLgnPoxL1z-7">
           <mxGeometry relative="1" as="geometry" />
@@ -489,47 +494,49 @@
             <mxPoint x="260" y="790" as="targetPoint" />
             <Array as="points">
               <mxPoint x="260" y="550" />
+              <mxPoint x="260" y="790" />
+              <mxPoint x="300" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-200" value="进入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
-          <mxGeometry x="240" y="800" width="40" height="20" as="geometry" />
+          <mxGeometry x="280.01" y="810" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-201" target="Z8_9q85KkhKLgnPoxL1z-204">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-201" value="将mini-batch送入actor神经网络中，并输出最多200个的Q值，将这些Q值平均后得到平均Q值q_eval" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=left;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="79.19" y="880" width="101.62" height="30" as="geometry" />
+          <mxGeometry x="72.97" y="880" width="101.62" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-202" target="Z8_9q85KkhKLgnPoxL1z-205">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-202" value="由贝尔曼方程得到接近真实Q值q_target，其中S&#39;和A&#39;(来自于mini-batch的第4元)是前面预先准备的" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="77.095" y="970" width="105.81" height="30" as="geometry" />
+          <mxGeometry x="70.875" y="970" width="105.81" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-204" target="Z8_9q85KkhKLgnPoxL1z-202">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-204" value="准备贝尔曼方程所需要的下一时刻的动作(由get_expoitation_action给出)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="72.1" y="929.05" width="115.8" height="20.95" as="geometry" />
+          <mxGeometry x="65.88" y="929.05" width="115.8" height="20.95" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-205" target="Z8_9q85KkhKLgnPoxL1z-206">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-205" value="根据损失函数计算损失" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="94.19" y="1017" width="71.62" height="10" as="geometry" />
+          <mxGeometry x="87.97" y="1017" width="71.62" height="10" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-206" target="Z8_9q85KkhKLgnPoxL1z-207">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-206" value="&lt;div&gt;将梯度归零&lt;/div&gt;&lt;div&gt;反向传播&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="94.19" y="1043" width="71.62" height="20" as="geometry" />
+          <mxGeometry x="87.97" y="1043" width="71.62" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-207" target="Z8_9q85KkhKLgnPoxL1z-209">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-207" value="&lt;div&gt;对模型参数进行更新&lt;/div&gt;&lt;div&gt;(实际是使用的smooth_l1_loss)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="83.505" y="1078" width="92.99" height="20" as="geometry" />
+          <mxGeometry x="77.285" y="1078" width="92.99" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-208" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
           <mxGeometry x="-95.59" y="1080" width="129.59" height="19" as="geometry" />
@@ -538,13 +545,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-209" value="在该次梯度下降更新后，通过软更新的方式，用actor网络模型参数来更新critic网络模型的参数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="66.22" y="1110" width="127.56" height="20" as="geometry" />
+          <mxGeometry x="59.99999999999999" y="1110" width="127.56" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-210" target="Z8_9q85KkhKLgnPoxL1z-243">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-210" value="返回该次的损失和包含模型参数的字典" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;align=center;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="94.19" y="1150" width="71.62" height="30" as="geometry" />
+          <mxGeometry x="87.97" y="1150" width="71.62" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-214" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-310" y="960" width="335" height="65.45000000000005" as="geometry" />
@@ -596,7 +603,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z8_9q85KkhKLgnPoxL1z-243" value="退出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
-          <mxGeometry x="109" y="1200" width="40" height="20" as="geometry" />
+          <mxGeometry x="102.78" y="1200" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
