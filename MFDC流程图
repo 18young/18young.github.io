@@ -1,29 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T15:08:05.100Z" agent="5.0 (Windows)" etag="v-RdIAX4PJOKVBgxjtkt" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T02:08:35.175Z" agent="5.0 (Windows)" etag="k4JAFxTdFcstbgnBVxye" version="14.8.5" type="github">
   <diagram id="9S4S7pyCVaKjdSnooEc-" name="Page-1">
-    <mxGraphModel dx="474" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
-          <mxGeometry x="170" y="40" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="CUJbxcEIMlmBDeOGFvgL-2" value="第三方模块和自定义模块导入" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
-          <mxGeometry x="160" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="310" y="100" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-3" value="参数初始化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
-          <mxGeometry x="160" y="120" width="60" height="20" as="geometry" />
+          <mxGeometry x="300" y="140" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
-          <mxGeometry x="310" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-5" value="&lt;div style=&quot;font-size: 5px;&quot;&gt;1. 包括路边单元个数，车辆个数，各个路边单元的容量&lt;/div&gt;&lt;div style=&quot;font-size: 5px;&quot;&gt;2. 状态空间维度，动作维度，&lt;/div&gt;&lt;div style=&quot;font-size: 5px;&quot;&gt;3. 每个路边单元的历史记录存放ram&lt;/div&gt;&lt;div style=&quot;font-size: 5px;&quot;&gt;4. 整个系统中文件的数量&lt;br style=&quot;font-size: 5px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 5px;&quot;&gt;5. 训练轮数&lt;br style=&quot;font-size: 5px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" parent="1" vertex="1">
-          <mxGeometry x="10" y="110" width="130" height="50" as="geometry" />
+          <mxGeometry x="20" y="240" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-3" value="&lt;font style=&quot;font-size: 7px&quot;&gt;是&lt;br&gt;&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" edge="1" parent="1" source="CUJbxcEIMlmBDeOGFvgL-6" target="CUJbxcEIMlmBDeOGFvgL-7">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="230" />
+              <mxPoint x="330" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-6" value="还未达到最大训练轮数" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;align=center;" parent="1" vertex="1">
-          <mxGeometry x="150" y="240" width="80" height="30" as="geometry" />
+          <mxGeometry x="290" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CUJbxcEIMlmBDeOGFvgL-7" target="Z8_9q85KkhKLgnPoxL1z-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CUJbxcEIMlmBDeOGFvgL-7" value="&lt;div&gt;路边单元是否&lt;/div&gt;&lt;div&gt;仍未扫描完成&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;align=center;" parent="1" vertex="1">
-          <mxGeometry x="150" y="290" width="80" height="30" as="geometry" />
+          <mxGeometry x="290" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z8_9q85KkhKLgnPoxL1z-1" target="Z8_9q85KkhKLgnPoxL1z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-1" value="&lt;div&gt;每个路边单元下的&lt;/div&gt;&lt;div&gt;车辆用户扫描未完成&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-2" value="&lt;div&gt;每个车辆用户的请求&lt;/div&gt;&lt;div&gt;扫描未完成&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-7" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-8" value="FedVag 平均所有w和bias并加载给所有agent" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z8_9q85KkhKLgnPoxL1z-9" value="每5个ep更新一次target network" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
